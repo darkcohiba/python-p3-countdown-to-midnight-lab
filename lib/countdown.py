@@ -1,3 +1,5 @@
+import time
+
 # def countdown(num):
 #     '''counts down from number and prints "HAPPY NEW YEAR!"'''
 #     for i in range(num, 0, -1):
@@ -9,6 +11,7 @@ def countdown(num):
     while i > 0:
         print(f"{i} SECOND(S)!")
         i -= 1
+        time.sleep(1)
     print("HAPPY NEW YEAR!")
 
     
